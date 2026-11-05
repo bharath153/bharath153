@@ -1,137 +1,110 @@
-<!--
-GitHub Profile README for: github.com/bharath153
-To display this on your profile:
-1. Create a PUBLIC repository named exactly: bharath153
-2. Add this file as README.md
--->
-
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:0A66C2,50:2563EB,100:38BDF8&text=Bharath%20Kanaiah%20Parthiban&fontColor=FFFFFF&fontSize=36&fontAlignY=38&desc=Automotive%20Engineering%20%7C%20Machine%20Learning%20%7C%20Simulation&descAlignY=58&descSize=17&animation=fadeIn" alt="Bharath Kanaiah Parthiban profile banner"/>
+# Bharath Kanaiah Parthiban
 
-<a href="https://github.com/bharath153">
-  <img src="https://img.shields.io/badge/GitHub-bharath153-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
-</a>
-<img src="https://komarev.com/ghpvc/?username=bharath153&style=for-the-badge&color=0A66C2&label=PROFILE+VIEWS" alt="Profile views"/>
+### Automotive & Mechatronic Systems · Model-Based Development · Navigation & Engineering AI
+
+**MATLAB/Simulink · Python · Sensor Fusion · Optimization · Simulation · Machine Learning**
 
 </div>
 
-## About Me
+## About
 
-I am an **Automotive Engineering graduate** focused on applying **machine learning, numerical simulation, and optimization** to engineering design problems.
+I build computational engineering tools for automotive and mechatronic systems, with an emphasis on **model-based development, navigation and sensor fusion, numerical simulation, optimization, and engineering machine learning**.
 
-My work combines domain knowledge in automotive systems with practical experience in **Python, MATLAB/Simulink, surrogate modelling, and multi-objective optimization**. I am especially interested in data-driven engineering, electric mobility, thermal systems, computer vision, and model-based development.
+My strongest work combines physical modelling with reproducible software: MATLAB/Simulink workflows, Python-based analysis, Extended Kalman Filters, Monte Carlo studies, surrogate modelling, multi-objective optimization, and interactive technical dashboards.
 
-- Developed machine-learning surrogate models for electric-motor performance prediction
-- Integrated Python prediction models with MATLAB optimization workflows
-- Applied NSGA-III to multi-objective electric-motor design
-- Worked with MATLAB/Simulink for automotive modelling and testing
-- Exploring computer vision and AI applications for industrial and automotive systems
-- Based in Italy and open to engineering, simulation, testing, and AI/ML opportunities
+I am based in Italy and open to engineering and research opportunities in automotive systems, controls, simulation, model-based development, navigation, digital engineering, and applied AI/ML.
+
+## Selected Projects
+
+### OpenNavLab — Resilient Navigation in MATLAB
+
+[OpenNavLab](https://github.com/bharath153/OpenNavLab) is a software-only research platform for classical and quantum-aided navigation under GNSS outages.
+
+- 8-state GPS/MEMS Extended Kalman Filter
+- configurable GPS outages and low-rate quantum bias-reference updates
+- paired Monte Carlo validation and outage/update-rate sensitivity studies
+- reproducible MATLAB workflow with an interactive research dashboard
+- explicit separation between saved research results and exploratory UI previews
+
+**Stack:** MATLAB · EKF · GPS/IMU · sensor fusion · Monte Carlo · navigation
+
+---
+
+### Electric Motor Design — Surrogate Modelling & NSGA-III
+
+[Electric-Motor-Design-Surrogate-Optimization](https://github.com/bharath153/Electric-Motor-Design-Surrogate-Optimization) documents a surrogate-assisted workflow for IPM traction-motor design.
+
+- 4,096 motor configurations
+- SVR and neural-network surrogate models
+- MATLAB–Python integration
+- NSGA-III multi-objective optimization through PlatEMO
+- Pareto analysis of torque and torque-ripple trade-offs
+
+**Stack:** MATLAB · Python · scikit-learn · surrogate modelling · NSGA-III · optimization
+
+---
+
+### PMSM Demagnetization Detection
+
+[PMSM_Autoencoder](https://github.com/bharath153/PMSM_Autoencoder) explores anomaly detection from synthetic three-phase current signatures.
+
+- autoencoder trained only on healthy signatures
+- reconstruction-error anomaly score
+- ROC-based threshold selection
+- fault-severity sensitivity analysis
+
+**Stack:** Python · scikit-learn · MLP autoencoder · anomaly detection · PMSM diagnostics
+
+---
+
+### Aerodynamic Design with Bayesian Optimization
+
+[Aero_BayesOpt](https://github.com/bharath153/Aero_BayesOpt) demonstrates Gaussian-process surrogate modelling and Expected Improvement for aerodynamic design-space search.
+
+**Stack:** Python · Gaussian Processes · Bayesian optimization · SciPy · engineering design
 
 ## Technical Focus
 
-<div align="center">
+| Systems & Simulation | Controls & Navigation | Engineering AI |
+|---|---|---|
+| Automotive systems | Extended Kalman Filters | Surrogate modelling |
+| MATLAB/Simulink | GPS/IMU sensor fusion | Regression & classification |
+| Numerical simulation | GNSS outage analysis | Anomaly detection |
+| Thermal / CAE workflows | Monte Carlo validation | Bayesian optimization |
+| Model-based development | Bias estimation | Multi-objective optimization |
 
-| Engineering | Artificial Intelligence | Modelling & Optimization |
-|:--:|:--:|:--:|
-| Automotive Systems | Machine Learning | MATLAB/Simulink |
-| Electric Motors | Computer Vision | Multi-objective Optimization |
-| Thermal Analysis | Regression Models | NSGA-III |
-| Testing & Validation | PyTorch | Numerical Simulation |
+## Tools
 
-</div>
+**Programming:** MATLAB, Simulink, Python, Git, GitHub  
+**Scientific Python:** NumPy, pandas, SciPy, scikit-learn, Matplotlib  
+**Engineering:** ANSYS, numerical simulation, model-based workflows  
+**Optimization:** PlatEMO, NSGA-III, Bayesian optimization
 
-## Tools and Technologies
+## Engineering ML Experiments
 
-<div align="center">
+I also maintain smaller, explicitly scoped experiments in battery ageing, aerodynamic surrogates, transmission control, brake-fade classification, NVH diagnostics, tire wear and EV charging-demand forecasting. These repositories use synthetic or physics-inspired demonstration data unless stated otherwise.
 
-### Programming and Data
+The experiments are intended to demonstrate modelling methodology and software structure rather than claim production or hardware validation.
 
-<img src="https://skillicons.dev/icons?i=python,matlab,git,github,vscode&theme=light" alt="Programming tools"/>
+## Reproducibility & Technical Integrity
 
-<br/>
+Across the portfolio I aim to make the modelling boundary explicit:
 
-<img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy"/>
-<img src="https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="pandas"/>
-<img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white" alt="scikit-learn"/>
-<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch"/>
-<img src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge" alt="Matplotlib"/>
-
-### Engineering
-
-<img src="https://img.shields.io/badge/MATLAB-Simulation-0076A8?style=for-the-badge&logo=mathworks&logoColor=white" alt="MATLAB"/>
-<img src="https://img.shields.io/badge/Simulink-Model--Based%20Design-F5A623?style=for-the-badge" alt="Simulink"/>
-<img src="https://img.shields.io/badge/ANSYS-CAE-FFB71B?style=for-the-badge&logo=ansys&logoColor=black" alt="ANSYS"/>
-<img src="https://img.shields.io/badge/SolidWorks-CAD-D62828?style=for-the-badge" alt="SolidWorks"/>
-<img src="https://img.shields.io/badge/PlatEMO-NSGA--III-2563EB?style=for-the-badge" alt="PlatEMO and NSGA-III"/>
-
-</div>
-
-## Featured Project
-
-<a href="https://github.com/bharath153/electric-motor-surrogate-optimization">
-  <img width="100%" src="https://github-readme-stats.vercel.app/api/pin/?username=bharath153&repo=electric-motor-surrogate-optimization&theme=transparent&title_color=0A66C2&text_color=475569&icon_color=2563EB&border_color=BFDBFE&border_radius=12" alt="Electric motor surrogate optimization repository"/>
-</a>
-
-### Electric Motor Surrogate Optimization
-
-A computational engineering workflow for predicting and optimizing electric-motor performance using:
-
-- Python-based machine-learning surrogate models
-- Support Vector Regression for torque and torque-ripple prediction
-- MATLAB–Python integration
-- NSGA-III multi-objective optimization through PlatEMO
-- Engineering design-space exploration and Pareto analysis
-
-**Primary technologies:** MATLAB, Python, scikit-learn, PlatEMO, NSGA-III
-
-## Current Development Roadmap
-
-```text
-Electric-motor ML portfolio
-├── Improve repository documentation and reproducibility
-├── Add model evaluation plots and engineering interpretation
-├── Add a clear MATLAB–Python workflow diagram
-└── Publish selected results and optimization visualizations
-
-Automotive AI portfolio
-├── Battery ageing and remaining-useful-life prediction
-├── Automotive defect detection using computer vision
-├── Thermal-system modelling and cooling optimization
-└── MATLAB/Simulink testing and validation examples
-```
-
-## GitHub Overview
-
-<div align="center">
-
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=bharath153&show_icons=true&hide_border=false&border_color=BFDBFE&title_color=0A66C2&icon_color=2563EB&text_color=475569&bg_color=00000000&rank_icon=github" alt="Bharath's GitHub statistics"/>
-
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=bharath153&layout=compact&hide_border=false&border_color=BFDBFE&title_color=0A66C2&text_color=475569&bg_color=00000000&langs_count=6" alt="Most used languages"/>
-
-</div>
-
-## What I Bring
-
-- Engineering understanding combined with practical programming
-- Experience translating physical design problems into computational workflows
-- Ability to connect simulation, machine learning, and optimization
-- Structured technical documentation and results interpretation
-- Interest in automotive R&D, testing, digital engineering, and intelligent systems
+- synthetic data are labelled as synthetic;
+- proxy/baseline models are named as such;
+- research claims are tied to saved results and reproducible scripts;
+- hardware validation is not implied where none has been performed.
 
 ## Contact
 
+For project discussions, collaboration, or engineering opportunities, please use the contact links on my GitHub profile.
+
+---
+
 <div align="center">
 
-<a href="https://github.com/bharath153">
-  <img src="https://img.shields.io/badge/View%20My%20Repositories-0A66C2?style=for-the-badge&logo=github&logoColor=white" alt="View repositories"/>
-</a>
-
-<br/><br/>
-
-<i>Open to collaborations and opportunities in automotive engineering, simulation, testing, machine learning, and model-based development.</i>
+**Automotive systems · Model-based development · Navigation · Simulation · Engineering AI**
 
 </div>
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=110&section=footer&color=0:38BDF8,50:2563EB,100:0A66C2" alt="Footer banner"/>
